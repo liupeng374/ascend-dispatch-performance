@@ -1,0 +1,11 @@
+Device_id,OP Type,Core Type,Count,Total Time(us),Min Time(us),Avg Time(us),Max Time(us),Ratio(%)
+0,ablate_full,AI_VECTOR_CORE,2652,64974.853,15.017,24.5,32.008,70.558
+0,ablate_unroll_outer,AI_VECTOR_CORE,221,5690.384,24.073,25.748,27.922,6.179
+0,ablate_no_outer,AI_VECTOR_CORE,221,5468.745,23.247,24.745,27.023,5.939
+0,ablate_no_final_map,AI_VECTOR_CORE,221,5265.55,22.398,23.826,26.27,5.718
+0,ablate_scan_only,AI_VECTOR_CORE,221,4929.757,20.989,22.307,24.648,5.353
+0,ablate_rows_only,AI_VECTOR_CORE,221,2495.464,10.108,11.292,13.515,2.71
+0,ablate_no_scan_select,AI_VECTOR_CORE,221,2483.874,10.244,11.239,13.908,2.697
+0,ablate_io_only,AI_VECTOR_CORE,221,707.219,1.728,3.2,5.95,0.768
+0,dispatch_probability_kernel,AI_VECTOR_CORE,1,37.419,37.419,37.419,37.419,0.041
+0,TensorEqual,MIX_AIV,14,34.107,2.052,2.436,5.289,0.037
